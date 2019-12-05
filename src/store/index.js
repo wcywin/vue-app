@@ -8,7 +8,7 @@ export default new Vuex.Store({
   state: {
     user: { id: '254491', name: 'Wojciech Cywinski' },
     categories: [
-        'sustainability',
+      'sustainability',
       'nature',
       'animal welfare',
       'housing',
@@ -73,12 +73,6 @@ export default new Vuex.Store({
   getters: {
     catLength: state => {
       return state.categories.length
-    },
-    doneTodos: state => {
-      return state.todos.filter(todo => todo.done)
-    },
-    activeTodosCount: state => {
-      return state.todos.filter(todo => !todo.done).length
     },
     getEventById: state => id => {
       return state.events.find(event => event.id === id)
