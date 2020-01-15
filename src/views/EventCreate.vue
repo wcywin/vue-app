@@ -40,6 +40,7 @@
 
 <script>
     import Datepicker from 'vuejs-datepicker'
+    import NPrograss from 'nprogress'
 
 	export default {
 		name: "EventCreate",
@@ -59,6 +60,7 @@
         },
         methods: {
 			createEvent() {
+				NPrograss.start()
                 this.$store
                     .dispatch('event/createEvent', this.event)
                     .then(() => {
@@ -68,7 +70,7 @@
                         })
 					this.event = this.createFreshEventObject()
                 }).catch(() => {
-
+                    NPrograss.done()
                 })
             },
 			createFreshEventObject() {

@@ -323,6 +323,42 @@
       "date": "",
       "location": "",
       "attendees": []
+    },
+    {
+      "id": 7184155,
+      "user": {
+        "id": "254491",
+        "name": "Wojtek"
+      },
+      "category": "animal welfare",
+      "organizer": {
+        "id": "254491",
+        "name": "Wojtek"
+      },
+      "title": "Puppy picknick",
+      "description": "Come with your puppy!",
+      "time": "19:00",
+      "date": "2020-01-09T21:05:00.000Z",
+      "location": "London",
+      "attendees": []
+    },
+    {
+      "id": 6823399,
+      "user": {
+        "id": "254491",
+        "name": "Wojtek"
+      },
+      "category": "animal welfare",
+      "organizer": {
+        "id": "254491",
+        "name": "Wojtek"
+      },
+      "title": "Cat picknick",
+      "description": "",
+      "time": "",
+      "date": "",
+      "location": "",
+      "attendees": []
     }
   ]
 }
