@@ -42,7 +42,13 @@
                 v-model="event.time"
                 :class="field"
             />
-            <input type="submit" class="button -fill-gradient" value="Submit"/>
+<!--            <input type="submit" class="button -fill-gradient" value="Submit"/>-->
+            <BaseButton
+                type="submit"
+                button-class="-fill-gradient"
+            >
+                Submit
+            </BaseButton>
         </form>
     </div>
 
@@ -53,10 +59,12 @@
     import NPrograss from 'nprogress'
 	import BaseInput from '../components/BaseInput'
 	import BaseSelect from '../components/BaseSelect'
+	import BaseButton from '../components/BaseButton'
 
 	export default {
 		name: "EventCreate",
         components: {
+			BaseButton,
 			BaseSelect,
 			BaseInput,
 			Datepicker

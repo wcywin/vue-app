@@ -359,6 +359,24 @@
       "date": "",
       "location": "",
       "attendees": []
+    },
+    {
+      "id": 1599603,
+      "user": {
+        "id": "254491",
+        "name": "Wojtek"
+      },
+      "category": "housing",
+      "organizer": {
+        "id": "254491",
+        "name": "Wojtek"
+      },
+      "title": "Harakiri",
+      "description": "Puppy parade",
+      "time": "",
+      "date": "",
+      "location": "",
+      "attendees": []
     }
   ]
 }
