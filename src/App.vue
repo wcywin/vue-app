@@ -242,4 +242,10 @@
   select::ms-expand {
     opacity: 0;
   }
+  .error {
+    border: 1px solid #df0606;
+  }
+  .errorMessage {
+    color: #df0606;
+  }
 </style>

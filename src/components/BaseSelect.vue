@@ -4,6 +4,7 @@
             {{ label }}
         </label>
         <select
+            v-on="$listeners"
             :value="value"
             @change="updateValue"
             v-bind="$attrs"

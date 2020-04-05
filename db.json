@@ -377,6 +377,24 @@
       "date": "",
       "location": "",
       "attendees": []
+    },
+    {
+      "id": 7620322,
+      "user": {
+        "id": "254491",
+        "name": "Wojtek"
+      },
+      "category": "",
+      "organizer": {
+        "id": "254491",
+        "name": "Wojtek"
+      },
+      "title": "",
+      "description": "",
+      "time": "",
+      "date": "",
+      "location": "",
+      "attendees": []
     }
   ]
 }
