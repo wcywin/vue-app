@@ -18,7 +18,7 @@
 		props: {
 			buttonClass: {
 				type: String,
-				default: () => ''
+				default: ''
 			},
 		},
 	}
